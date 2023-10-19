@@ -86,6 +86,52 @@ img {
 	border-radius: 2em;
 }
 
+/* For Deskktop */
+
+@media (min-width: 400px) {
+	body {
+		padding: 0;
+	}
+
+	img {
+		width: 40%;
+	}
+
+	.container {
+		display: flex;
+		width: 70%;
+		font-size: 1.5vw;
+	}
+
+	.car-adverts {
+		flex: 1;
+	}
+
+	.car-adverts:first-child {
+		border-radius: 0.5em 0 0 0.5em;
+	}
+
+	.car-adverts:nth-child(3) {
+		border-radius: 0 0.5em 0.5em 0;
+	}
+
+	.car-type {
+		width: fit-content;
+		font-size: 2.5em;
+	}
+
+	.car-adverts p {
+		padding: 0;
+		font-size: 0.8em;
+		padding-right: 0.5em;
+		padding-bottom: 4em;
+	}
+
+	.advert-learn-more {
+		/* padding: 0.5em 1em; */
+	}
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
