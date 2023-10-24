@@ -80,10 +80,19 @@ img {
 .advert-learn-more {
 	display: block;
 	background-color: hsl(0, 0%, 95%);
+
 	text-decoration: none;
 	width: fit-content;
 	padding: 0.5em 1.3em;
 	border-radius: 2em;
+}
+
+.container .car-adverts .advert-learn-more:hover,
+.container .car-adverts .advert-learn-more:focus {
+	background-color: hsla(0, 0%, 95%, 0);
+	color: hsl(0, 0%, 95%);
+	border: 0.13em solid hsl(0, 0%, 95%);
+	padding: 0.37em 1.3em;
 }
 
 /* For Deskktop */
@@ -125,10 +134,6 @@ img {
 		font-size: 0.8em;
 		padding-right: 0.5em;
 		padding-bottom: 4em;
-	}
-
-	.advert-learn-more {
-		/* padding: 0.5em 1em; */
 	}
 }
 
